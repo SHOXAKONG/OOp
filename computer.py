@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 class Computer:
-    total_count = 0
+    total_count = 1
 
     def __init__(self ,brand, model, year, price):
         self.brand = brand
